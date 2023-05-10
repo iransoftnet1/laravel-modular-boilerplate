@@ -9,7 +9,7 @@ class ProductController extends Controller
 
     public function index()
     {
-        dd('hi');
+        return $this->resourceData(['foo'=> 'bar'],201);
     }
 
 }
