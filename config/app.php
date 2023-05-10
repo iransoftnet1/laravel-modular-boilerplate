@@ -175,6 +175,16 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Cores Service Providers...
+         */
+        Product\Providers\ProductServiceProvider::class,
+
+
+        /*
+         * modules Service Providers...
+         */
+        Console\Providers\ConsoleServiceProvider::class,
     ],
 
     /*
