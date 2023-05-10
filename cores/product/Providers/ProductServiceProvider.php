@@ -27,6 +27,7 @@ class ProductServiceProvider extends ServiceProvider
             ->middleware('auth:api')
             ->namespace($this->namespace)
             ->group($rootPath . 'router.php');
+        require_once "{$rootPath}helpers.php";
     }
 
     public function boot()
